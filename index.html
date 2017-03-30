@@ -1,25 +1,25 @@
 <html>
     <head>
         <title>Turnip</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap_layout.css" />
+        <link rel="stylesheet" href="css/main.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <style>
-            body {
-                font-family: 'Open Sans', sans-serif;
-                color: #373737;
-            }
-            .container {
-                text-align: center;
-                width: 100%;
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                margin-left: -10px;
-            }
-        </style>
     </head>
     <body>
         <div class="container">
             <img src="logo.svg" width="100px"/>
+            <div class="row">
+                    <div class="col-sm-12">
+                        <input placeholder="Signup for updates" id="main-email"/>
+                    </div>
+                    <div class="col-sm-12">
+                        <button id="main-submit">Submit</button>
+                    </div>
+            </div>
         </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
